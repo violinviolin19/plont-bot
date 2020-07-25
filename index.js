@@ -2,6 +2,8 @@ const Discord = require('discord.js')
 const {Client, MessageAttachment, MessageEmbed} = require('discord.js')
 const client = new Client(); 
 const ms = require('ms')
+socket = io.listen(process.env.PORT);
+
 
 const PREFIX = '%'
 
