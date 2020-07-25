@@ -1,0 +1,354 @@
+[
+  {
+    "name": "Sandhya Sriram",
+    "plants": [
+      {
+        "owner": "Sandhya Sriram",
+        "species": "lily",
+        "size": 5,
+        "words": 88,
+        "image": "./lily_size5.png",
+        "name": "anyu"
+      },
+      {
+        "owner": "Sandhya Sriram",
+        "species": "ladyslipper",
+        "size": 1,
+        "words": 140,
+        "image": "./size1.png",
+        "name": "bruh"
+      },
+      {
+        "owner": "Sandhya Sriram",
+        "species": "dandelion",
+        "size": 0,
+        "words": 25,
+        "image": "./size0.png",
+        "name": "floof"
+      },
+      {
+        "owner": "Sandhya Sriram",
+        "species": "rose",
+        "size": 5,
+        "words": 19,
+        "image": "./rose_size5.png",
+        "name": "voldemort"
+      }
+    ],
+    "money": 3550,
+    "active": 2,
+    "modifier": 1
+  },
+  {
+    "name": "ejorange",
+    "plants": [
+      {
+        "owner": "ejorange",
+        "species": "lily",
+        "size": 0,
+        "words": 85,
+        "image": "./size0.png",
+        "name": "lily"
+      },
+      {
+        "owner": "ejorange",
+        "species": "ladyslipper",
+        "size": 4,
+        "words": 0,
+        "image": "./ladyslipper_size4.png",
+        "name": "ladyslipper"
+      },
+      {
+        "owner": "ejorange",
+        "species": "ladyslipper",
+        "size": 4,
+        "words": 0,
+        "image": "./ladyslipper_size4.png",
+        "name": "ladyslipper"
+      },
+      {
+        "owner": "ejorange",
+        "species": "rose",
+        "size": 5,
+        "words": 0,
+        "image": "./rose_size5.png",
+        "name": "rose"
+      },
+      {
+        "owner": "ejorange",
+        "species": "lily",
+        "size": 2,
+        "words": 0,
+        "image": "./size2.png",
+        "name": "lily"
+      },
+      {
+        "owner": "ejorange",
+        "species": "dandelion",
+        "size": 4,
+        "words": 0,
+        "image": "./dandelion_size4.png",
+        "name": "dandelion"
+      },
+      {
+        "owner": "ejorange",
+        "species": "ladyslipper",
+        "size": 5,
+        "words": 0,
+        "image": "./ladyslipper_size5.png",
+        "name": "ladyslipper"
+      },
+      {
+        "owner": "ejorange",
+        "species": "rose",
+        "size": 2,
+        "words": 0,
+        "image": "./size2.png",
+        "name": "rose"
+      },
+      {
+        "owner": "ejorange",
+        "species": "rose",
+        "size": 5,
+        "words": 0,
+        "image": "./rose_size5.png",
+        "name": "rose"
+      },
+      {
+        "owner": "ejorange",
+        "species": "ladyslipper",
+        "size": 4,
+        "words": 0,
+        "image": "./ladyslipper_size4.png",
+        "name": "ladyslipper"
+      },
+      {
+        "owner": "ejorange",
+        "species": "dandelion",
+        "size": 4,
+        "words": 0,
+        "image": "./dandelion_size4.png",
+        "name": "dandelion"
+      }
+    ],
+    "money": 0,
+    "active": 0,
+    "modifier": 1
+  },
+  {
+    "name": "starfoosh",
+    "plants": [
+      {
+        "owner": "starfoosh",
+        "species": "dandelion",
+        "size": 1,
+        "words": 103,
+        "image": "./size1.png",
+        "name": "dandelion"
+      },
+      {
+        "owner": "starfoosh",
+        "species": "lily",
+        "size": 0,
+        "words": 0,
+        "image": "./size0.png",
+        "name": "lily"
+      }
+    ],
+    "money": 2350,
+    "active": 0,
+    "modifier": 1
+  },
+  {
+    "name": "potatoindespair",
+    "plants": [
+      {
+        "owner": "potatoindespair",
+        "species": "lily",
+        "size": 1,
+        "words": 38,
+        "image": "./size1.png",
+        "name": "Jeb"
+      },
+      {
+        "owner": "potatoindespair",
+        "species": "lily",
+        "size": 4,
+        "words": 0,
+        "image": "./lily_size4.png",
+        "name": "lily"
+      },
+      {
+        "owner": "potatoindespair",
+        "species": "rose",
+        "size": 3,
+        "words": 0,
+        "image": "./rose_size3.png",
+        "name": "rose"
+      },
+      {
+        "owner": "potatoindespair",
+        "species": "dandelion",
+        "size": 4,
+        "words": 0,
+        "image": "./dandelion_size4.png",
+        "name": "dandelion"
+      }
+    ],
+    "money": 400,
+    "active": 0,
+    "modifier": 1
+  },
+  {
+    "name": "Hyde Jackal",
+    "plants": [
+      {
+        "owner": "Hyde Jackal",
+        "species": "rose",
+        "size": 0,
+        "words": 22,
+        "image": "./size0.png",
+        "name": "rose"
+      },
+      {
+        "owner": "Hyde Jackal",
+        "species": "lily",
+        "size": 0,
+        "words": 0,
+        "image": "./size0.png",
+        "name": "lily"
+      },
+      {
+        "owner": "Hyde Jackal",
+        "species": "ladyslipper",
+        "size": 1,
+        "words": 0,
+        "image": "./size1.png",
+        "name": "ladyslipper"
+      },
+      {
+        "owner": "Hyde Jackal",
+        "species": "ladyslipper",
+        "size": 5,
+        "words": 2,
+        "image": "./ladyslipper_size5.png",
+        "name": "ladyslipper"
+      },
+      {
+        "owner": "Hyde Jackal",
+        "species": "lily",
+        "size": 0,
+        "words": 0,
+        "image": "./size0.png",
+        "name": "lily"
+      },
+      {
+        "owner": "Hyde Jackal",
+        "species": "ladyslipper",
+        "size": 5,
+        "words": 0,
+        "image": "./ladyslipper_size5.png",
+        "name": "ladyslipper"
+      },
+      {
+        "owner": "Hyde Jackal",
+        "species": "ladyslipper",
+        "size": 5,
+        "words": 0,
+        "image": "./ladyslipper_size5.png",
+        "name": "ladyslipper"
+      }
+    ],
+    "money": 0,
+    "active": 3,
+    "modifier": 1
+  },
+  {
+    "name": "shybearx",
+    "plants": [
+      {
+        "owner": "shybearx",
+        "species": "rose",
+        "size": 0,
+        "words": 39,
+        "image": "./size0.png",
+        "name": "rose"
+      },
+      {
+        "owner": "shybearx",
+        "species": "ladyslipper",
+        "size": 1,
+        "words": 6,
+        "image": "./size1.png",
+        "name": "ladyslipper"
+      },
+      {
+        "owner": "shybearx",
+        "species": "rose",
+        "size": 2,
+        "words": 3,
+        "image": "./size2.png",
+        "name": "rose"
+      },
+      {
+        "owner": "shybearx",
+        "species": "rose",
+        "size": 5,
+        "words": 14,
+        "image": "./rose_size5.png",
+        "name": "rose"
+      },
+      {
+        "owner": "shybearx",
+        "species": "rose",
+        "size": 0,
+        "words": 0,
+        "image": "./size0.png",
+        "name": "rose"
+      },
+      {
+        "owner": "shybearx",
+        "species": "rose",
+        "size": 3,
+        "words": 0,
+        "image": "./rose_size3.png",
+        "name": "rose"
+      }
+    ],
+    "money": 250,
+    "active": 3,
+    "modifier": 1
+  },
+  {
+    "name": "breadfishforeva",
+    "plants": [
+      {
+        "owner": "breadfishforeva",
+        "species": "lily",
+        "size": 0,
+        "words": 1,
+        "image": "./size0.png",
+        "name": "charlie"
+      }
+    ],
+    "money": 0,
+    "active": 0,
+    "modifier": 1
+  },
+  {
+    "name": "smiles",
+    "plants": [
+      {
+        "owner": "smiles",
+        "species": "rose",
+        "size": 1,
+        "words": 136,
+        "image": "./size1.png",
+        "name": "rose"
+      }
+    ],
+    "money": 50,
+    "active": 0,
+    "modifier": 1
+  }
+]

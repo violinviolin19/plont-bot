@@ -1,0 +1,88 @@
+[
+  {
+    "owner": "Sandhya Sriram",
+    "species": [
+      "lily",
+      "lily",
+      "ladyslipper"
+    ],
+    "size": [
+      0,
+      0,
+      0
+    ],
+    "words": [
+      57,
+      7,
+      29
+    ],
+    "image": [
+      "./size0.png",
+      "./size0.png",
+      "./size0.png"
+    ],
+    "active": 0,
+    "names": [
+      "leaf",
+      "happy",
+      "bruh"
+    ]
+  },
+  {
+    "owner": "ejorange",
+    "species": [
+      "lily"
+    ],
+    "size": [
+      0
+    ],
+    "words": [
+      57
+    ],
+    "image": [
+      "./size0.png"
+    ],
+    "active": 0,
+    "names": [
+      "lily"
+    ]
+  },
+  {
+    "owner": "potatoindespair",
+    "species": [
+      "lily"
+    ],
+    "size": [
+      0
+    ],
+    "words": [
+      25
+    ],
+    "image": [
+      "./size0.png"
+    ],
+    "active": 0,
+    "names": [
+      "Jeb"
+    ]
+  },
+  {
+    "owner": "starfoosh",
+    "species": [
+      "dandelion"
+    ],
+    "size": [
+      0
+    ],
+    "words": [
+      13
+    ],
+    "image": [
+      "./size0.png"
+    ],
+    "active": 0,
+    "names": [
+      "destroyer"
+    ]
+  }
+]
