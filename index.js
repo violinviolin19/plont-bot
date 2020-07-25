@@ -94,9 +94,9 @@ client.on('message', message => {
                 element.plants = dict[person].plants
             }
         });
-        fs.writeFileSync('data.json', JSON.stringify(plant_data, null, 2), function(err){
-            if (err) throw err;
-            }); 
+        // fs.writeFileSync('data.json', JSON.stringify(plant_data, null, 2), function(err){
+        //     if (err) throw err;
+        //     }); 
     }
     if (!message.content.startsWith(PREFIX)) return;
     switch(args[0]){
@@ -130,9 +130,9 @@ client.on('message', message => {
                             element.plants = dict[person].plants
                         }
                     });
-                    fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-                        if (err) throw err;
-                        });
+                    // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+                    //     if (err) throw err;
+                    //     });
                     let len = dict[person].plants.length
                     const attachment = new MessageAttachment(dict[person].plants[len-1].image)
                     message.reply("Congratulations! Here is your new plant. Keep typing to grow your plant! Make sure to switch your active plant if you want to grow this one.");
@@ -146,10 +146,10 @@ client.on('message', message => {
                         var json = JSON.parse(data);
                         console.log(owner.data)
                         json.push(owner.data);    
-                        fs.writeFile("data.json", JSON.stringify(json, null, 2), function(err){
-                            if (err) throw err;
-                            console.log('New plant created!');
-                        });
+                        // fs.writeFile("data.json", JSON.stringify(json, null, 2), function(err){
+                        //     if (err) throw err;
+                        //     console.log('New plant created!');
+                        // });
                     })
                     const attachment = new MessageAttachment(dict[person].plants[0].image)
                     message.reply("Congratulations! Here is your new plant. Keep typing to grow your plant!");
@@ -199,9 +199,9 @@ client.on('message', message => {
                             element.active = dict[person].active 
                         }
                     });
-                fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-                    if (err) throw err;
-                    });
+                // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+                //     if (err) throw err;
+                //     });
                 let active = dict[person].active
                 const attachment = new MessageAttachment(dict[person].plants[active].image)
                 message.reply("Here is your active plant, " + dict[person].plants[active].name + "!");
@@ -226,9 +226,9 @@ client.on('message', message => {
                         }
                     });
                 
-                fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-                    if (err) throw err;
-                    });
+                // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+                //     if (err) throw err;
+                //     });
                 message.reply("Your plant's name is now " + dict[person].plants[a].name + "!");
             }
         break;
@@ -285,9 +285,9 @@ client.on('message', message => {
                             element.active = dict[person].active
                         }
                     });
-                fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-                    if (err) throw err;
-                    });
+                // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+                //     if (err) throw err;
+                //     });
             }
         break;
         case 'buy': 
@@ -315,9 +315,9 @@ client.on('message', message => {
                                 element.modifier = dict[person].modifier
                             }
                         });
-                        fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-                            if (err) throw err;
-                        });
+                        // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+                        //     if (err) throw err;
+                        // });
 
                         setTimeout(function(){
                             dict[person].modifier = 1
@@ -327,9 +327,9 @@ client.on('message', message => {
                                     element.modifier = dict[person].modifier
                                 }
                             });
-                            fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-                                if (err) throw err;
-                            });
+                            // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+                            //     if (err) throw err;
+                            // });
                         }, ms('30m'));
                     }
                 break;
@@ -349,9 +349,9 @@ client.on('message', message => {
                                 element.modifier = dict[person].modifier
                             }
                         });
-                        fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-                            if (err) throw err;
-                        });
+                        // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+                        //     if (err) throw err;
+                        // });
 
                         setTimeout(function(){
                             dict[person].modifier = 1
@@ -361,9 +361,9 @@ client.on('message', message => {
                                     element.modifier = dict[person].modifier
                                 }
                             });
-                            fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-                                if (err) throw err;
-                            });
+                            // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+                            //     if (err) throw err;
+                            // });
                         }, ms('1h'));
                     }
                 break;
@@ -472,10 +472,10 @@ function addPlant(m, r, s, im){
             var json = JSON.parse(data);
             console.log(ow.data)
             json.push(ow.data);    
-            fs.writeFile("data.json", JSON.stringify(json, null, 2), function(err){
-                if (err) throw err;
-                console.log('New plant created!');
-            });
+            // fs.writeFile("data.json", JSON.stringify(json, null, 2), function(err){
+            //     if (err) throw err;
+            //     console.log('New plant created!');
+            // });
         })
         m.reply("Congratulations! You've collected your first plant, a " + flowers[r-1] + "!")
     }
@@ -490,9 +490,9 @@ function addPlant(m, r, s, im){
                 element.plants = dict[per].plants
             }
         });
-        fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
-            if (err) throw err;
-            });
+        // fs.writeFileSync('data.json', JSON.stringify(more_plant_data, null, 2), function(err){
+        //     if (err) throw err;
+        //     });
         m.reply("Congratulations! You've collected a " + flowers[r-1] + "!")
     }
 }
